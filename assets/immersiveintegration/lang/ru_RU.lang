@@ -1,0 +1,173 @@
+# Misc
+itemGroup.immersiveintegration=Immersive Integration
+
+
+# AE2
+item.immersiveintegration:wireCoilFluix.name=МЭ Катушка провода
+item.immersiveintegration:wireCoilDense.name=МЭ Катушка плотного провода
+
+tile.immersiveintegration:meWireConnector.name=МЭ Коннектор провода
+tile.immersiveintegration:meDenseWireConnector.name=МЭ Коннектор плотного провода
+tile.immersiveintegration:meTransformer.name=MЭ Трансформатор
+tile.immersiveintegration:meDenseTransformer.name=МЭ Плотный трансформатор
+tile.immersiveintegration:aeDecorationFluixCoil.name=Катушка МЭ кабеля
+tile.immersiveintegration:aeDecorationDenseCoil.name=Катушка МЭ плотного кабеля
+
+
+## IE/II
+tile.immersiveintegration:extendedPost.name=Основа деревянных столбов
+tile.immersiveintegration:extendablePost.name=Деревянная стойка
+tile.immersiveintegration:steelTrapdoor.name=Стальной люк
+tile.immersiveintegration:redstoneWireConnector.name=Коннектор из красного камня
+tile.immersiveintegration:industrialCokeOven.name=Промышленная коксовая печь
+tile.immersiveintegration:itemRobin.name=Распределитель предметов
+
+tile.immersiveintegration:inductionChargerLV.name=Низковольтное индукционное зарядное устройство
+tile.immersiveintegration:inductionChargerMV.name=Средневольтное индукционное зарядное устройство
+tile.immersiveintegration:inductionChargerHV.name=Высоковольтное индукционное зарядное устройство
+
+tile.immersiveintegration:steelDecorationOvenWall.name=Блок промышленной коксовой печи
+tile.immersiveintegration:steelDecorationOvenWallHeated.name=Нагреватель промышленной коксовой печи
+tile.immersiveintegration:steelDecorationOvenWallPort.name=Порт промышленной коксовой печи
+
+item.immersiveintegration:iiWireCoilRedstone.name=Катушка провода из красного камня
+
+item.immersiveintegration:capacitorBoxLV.name=Низковольтный конденсатор в коробке
+item.immersiveintegration:capacitorBoxMV.name=Средневольтный конденсатор в коробке
+item.immersiveintegration:capacitorBoxHV.name=Высоковольтный конденсатор в коробке
+item.immersiveintegration:capacitorBoxCreative.name=Творческий конденсатор в коробке
+
+
+# Tooltips
+immersiveintegration.tooltip.safe=Можно использовать в качестве декораций
+
+immersiveintegration.tooltip.capacitor.infinite=Бесконечный RF
+immersiveintegration.tooltip.capacitor.active0=Нажмите ПКМ для остановки зарядки
+immersiveintegration.tooltip.capacitor.active1=электрических предметов
+immersiveintegration.tooltip.capacitor.rightClickActive0=Нажмите ПКМ для зарядки
+immersiveintegration.tooltip.capacitor.rightClickActive1=электрических предметов
+
+
+# Colors
+immersiveintegration.color.black=Черный
+immersiveintegration.color.red=Красный
+immersiveintegration.color.green=Зеленый
+immersiveintegration.color.brown=Коричневый
+immersiveintegration.color.blue=Синий
+immersiveintegration.color.purple=Фиолетовый
+immersiveintegration.color.cyan=Голубой
+immersiveintegration.color.lightGrey=Светло-серый
+immersiveintegration.color.grey=Серый
+immersiveintegration.color.pink=Розовый
+immersiveintegration.color.lime= Лаймовый
+immersiveintegration.color.yellow=Желтый
+immersiveintegration.color.lightBlue=Голубой
+immersiveintegration.color.magenta=Пурпурный
+immersiveintegration.color.orange=Оранжевый
+immersiveintegration.color.white=Белый
+
+# Manual
+ie.manual.category.immersiveintegration.name=Immersive Integration
+
+ie.manual.entry.extendablePost.name=Наращиваемый столб
+ie.manual.entry.extendablePost.subtext=ооо дааа...
+ie.manual.entry.extendablePost0=Эта основа позволяет сделать столб на столько большим, на сколько вы только хотите. Поставте основу и и просто поместите забор сверху. Так же можно использовать молот инженера.
+
+ie.manual.entry.steelTrapdoor.name=Стальной люк
+ie.manual.entry.steelTrapdoor.subtext=Тссс. Это секрет...
+ie.manual.entry.steelTrapdoor0=Работает как обычный люк, за исключением того, что его можно открыть ТОЛЬКО сигналом красного камня.
+
+ie.manual.entry.redstoneWiring.name=Передача редстоуна
+ie.manual.entry.redstoneWiring.subtext=Сигнальные провода на телеграфных столбах?
+ie.manual.entry.redstoneWiring0=Для начала вам понадобится катушка из красного камня и как минимум 2 коннектора из красного камня. Их можно соединять вместе как обычные провода.
+ie.manual.entry.redstoneWiring1=Каждый разъем может быть назначен как вход/выход, а также одним из 16 каналов. Щелкните правой кнопкой мыши с помощью молотка, чтобы переключить режим ввода и вывода, и нажимая shift + правой кнопкой мыши с помощью молотка, чтобы изменить канал.
+ie.manual.entry.redstoneWiring2=Каждый канал независим друг от друга, что позволяет передавать несколько сигналов по одному проводу. Соединители проводов выводят сильный сигнал на нижней части соединителя и слабый сигнал на всех остальных сторонах.
+
+ie.manual.entry.meWiring.name=ME Проводка
+ie.manual.entry.meWiring.subtext=Applied Energistics 2!
+ie.manual.entry.meWiring0=Есть два типа катушек проводов для использования с AE2. Как вы можете догадаться, "МЭ Катушка провода" способна передавать 8 каналов, а "МЭ Катушка плотного провода" - 32 канала.
+ie.manual.entry.meWiring1=Чтобы соединить две части вашей системы вместе, вам понадобятся как минимум два трансформатора. Один для усиления сигнала для передачи по проводам, а второй для ослабления сигнала для использования с обычными кабелями.
+ie.manual.entry.meWiring2=Хотя вы и можете подключить два трансформатора напрямую друг к другу, вы, вероятно, захотите пройти большие расстояния. Используйте коннекторы проводов с соответствующими катушками для увеличения расстояния.
+ie.manual.entry.meWiring3=Вам нужно будет смастерить несколько блоков катушек, чтобы сделать трансформатор.
+
+ie.manual.entry.industrialCokeOven.name=Промышленная коксовая печь
+ie.manual.entry.industrialCokeOven.subtext=Революция в промышленности
+ie.manual.entry.industrialCokeOven0=Вскоре становится очевидным, что традиционная коксовая печь недостаточно хороша. Вы можете построить больше коксовых печей ... или вы можете построить промышленную коксовую печь!
+ie.manual.entry.industrialCokeOven1=Промышленная коксовая печь позволяет приготавливать 4 куска угольного кокса одновременно. Эта новая печь также более эффективна, быстрее готовит и потребляет больше ресурсов на одну операцию. Вставить предметы во все 4 слота будет сложно без какой-либо системы( <link; itemRobin; §o§nРаспределитель предметов§r; 0> поможет вам).
+ie.manual.entry.industrialCokeOven2=Ты же не думал, что все на столько легко?
+
+ie.manual.entry.itemRobin.name=Распределитель предметов
+ie.manual.entry.itemRobin.subtext=Чирикать, щебетать.
+ie.manual.entry.itemRobin0=Распределитель предметов будет принимать на вход предметы и передавать их смежным инвентарям (включая конвейеры). Вы можете щелкнуть правой кнопкой мыши по стороне с количеством предметов, которое хотите добавить в инвентарь на этой стороне за цикл.
+ie.manual.entry.itemRobin1=Если вы держите молоток в руке, вы сможете увидеть текущие настройки с каждой стороны. После того, как вы его настроили, вы можете щелкнуть правой кнопкой мыши по распределителю молотком, чтобы заблокировать его.
+
+ie.manual.entry.capacitorBox.name=Конденсатор в коробке
+ie.manual.entry.capacitorBox.subtext=Конденсатор + коробка = плоский квадрат..?
+ie.manual.entry.capacitorBox0=Поместив конденсатор в деревянный ящик, вы можете носить его с собой и использовать для зарядки других предметов одновременно. Если у вас есть Tinkers 'Construct, вы можете поместить конденсатор в коробке в свои инструменты. Вы можете зарядить свой конденсатор в коробке с помощью <link;inductionCharger;§o§nиндукционное зарядное устройство§r;0>
+
+ie.manual.entry.inductionCharger.name=Индукционное зарядное устройство
+ie.manual.entry.inductionCharger.subtext=Совместимо с ведущими брендами
+ie.manual.entry.inductionCharger0=Заряжайте свои предметы с помощью науки индукции; Как и ваш мобильный телефон, вы можете заряжать многие другие предметы по беспроводной сети. Просто бросьте свой предмет на индукционное зарядное устройство и наблюдайте, как он заряжается. Если вы встанете на зарядное устройство, то оно зарядит предметы, которые вы несете.
+
+# Chat
+
+immersiveintegration.chat.channel=Канал:
+immersiveintegration.chat.mode=Режим:
+immersiveintegration.chat.channelSet=Установлен канал:
+immersiveintegration.chat.modeSet=Установлен режим:
+immersiveintegration.chat.input=Ввод
+immersiveintegration.chat.output=Вывод
+
+immersiveintegration.chat.itemRobin.countSet=Количество предметов установлено на
+immersiveintegration.chat.itemRobin.locked=Заблокировано
+immersiveintegration.chat.itemRobin.itemCount=Количество предметов: %s
+
+
+# Config
+immersiveintegration.config.category.ae=Applied Energistics 2
+immersiveintegration.config.category.ae.tooltip=Applied Energistics 2 Additions
+immersiveintegration.config.category.ie=Immersive Integration
+immersiveintegration.config.category.ie.tooltip=Immersive Engineering Additions
+immersiveintegration.config.category.minecraft=Minecraft
+immersiveintegration.config.category.minecraft.tooltip=Minecraft Additions
+immersiveintegration.config.category.other=Other
+immersiveintegration.config.category.other.tooltip=Miscellaneous
+
+immersiveintegration.config.enableAE=Enable AE2 Integration
+immersiveintegration.config.desc.enableAE=Enable/disable the AE2 specific content if AE2 is installed
+
+immersiveintegration.config.fluixWireRange=Fluix Wire Range
+immersiveintegration.config.desc.fluixWireRange=The maximum range of Fluix Wires before needing a support
+
+immersiveintegration.config.denseWireRange=Dense Wire Range
+immersiveintegration.config.desc.denseWireRange=The maximum range of Dense Wires before needing a support
+
+immersiveintegration.config.redstoneWireRange=Redstone Wire Range
+immersiveintegration.config.desc.redstoneWireRange=The maximum range of Redstone Wires before needing a support
+
+immersiveintegration.config.cokeOvenDoubleChance=Coke Oven Double Chance
+immersiveintegration.config.desc.cokeOvenDoubleChance=The chance the coke oven will give an extra output. A value of 10 would be 1 in 10 chance
+
+immersiveintegration.config.cokeOvenCreosoteMultiplier=Coke Oven Creosote Multiplier
+immersiveintegration.config.desc.cokeOvenCreosoteMultiplier=How much more creosote to give per operation. A value of 1.5 would yield 1.5 x creosote output
+
+immersiveintegration.config.cokeOvenTimeMultiplier=Coke Oven Time Multiplier
+immersiveintegration.config.desc.cokeOvenTimeMultiplier=Value to multiply the base cooking speed by. A value of 0.5 would be half the time needed.
+
+immersiveintegration.config.meTransformerPowerDrain=ME Transformer Power Drain
+immersiveintegration.config.desc.meTransformerPowerDrain=How much power to drain per transformer in AE/t
+
+immersiveintegration.config.meDenseTransformerPowerDrain=ME Dense Transformer Power Drain
+immersiveintegration.config.desc.meDenseTransformerPowerDrain=How much power to drain per dense transformer in AE/t
+
+immersiveintegration.config.meWireConnectorDrain=ME Wire Connector Power Drain
+immersiveintegration.config.desc.meWireConnectorDrain=How much power to drain per connector in AE/t
+
+immersiveintegration.config.meDenseWireConnectorDrain=ME Dense Wire Connector Power Drain
+immersiveintegration.config.desc.meDenseWireConnectorDrain=How much power to drain per dense connector in AE/t
+
+immersiveintegration.config.enableTinkers=Enable Tinkers' Construct Integration
+immersiveintegration.config.desc.enableTinkers=Allows you to attach IE capacitors to tools
+
+immersiveintegration.config.verboseLogging=Verbose Logging
+immersiveintegration.config.desc.verboseLogging=Logs more info to the console. Useful for debugging.
